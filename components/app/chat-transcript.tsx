@@ -12,27 +12,27 @@ const CONTAINER_MOTION_PROPS = {
     hidden: {
       opacity: 0,
       transition: {
-        ease: 'easeOut' as const,
+        ease: 'easeOut',
         duration: 0.3,
         staggerChildren: 0.1,
-        staggerDirection: -1 as const,
+        staggerDirection: -1,
       },
     },
     visible: {
       opacity: 1,
       transition: {
         delay: 0.2,
-        ease: 'easeOut' as const,
+        ease: 'easeOut',
         duration: 0.3,
         stagerDelay: 0.2,
         staggerChildren: 0.1,
-        staggerDirection: 1 as const,
+        staggerDirection: 1,
       },
     },
   },
-  initial: 'hidden' as const,
-  animate: 'visible' as const,
-  exit: 'hidden' as const,
+  initial: 'hidden',
+  animate: 'visible',
+  exit: 'hidden',
 };
 
 const MESSAGE_MOTION_PROPS = {
